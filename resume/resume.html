@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel=stylesheet type="text/css" href="resume.css">
+
+    <title>Resume</title>
+  </head>
+  <body><a name="head"></a>
+   <header class="aa"><img class="head" src="images/resume.png"></header>
+   <div class="aboutme"> 
+     <div class="myphoto">
+       <img class="me" src="images/me1.jpg">
+       <div class="myweb"><a href="https://10744230.github.io/Self.github.io/intro.html" >個人<br> 網站</a></div>
+      </div>
+     <div class="myself">
+      <img class="name" src="images/sign3.png"> 
+      <div class="mm">
+        C Y C U &nbsp;&nbsp; I M <br>
+        <i>"認真、細心、耐心、負責任、努力、堅持"</i> 
+        <p class="p1">盡自己最大的努力，用心把每件事做到最完美</p>
+      </div>
+     </div>
+     <div class="contact">
+      <a href="https://reurl.cc/xZNVje"><img class="con" src="images\facebook.png"></a>
+      <a href="https://reurl.cc/8GDxM7"><img class="con" src="images\instagram.png"></a>
+      <a href="https://github.com/10744230"><img class="con" src="images\github.png"></a>
+      <a href="mailto:peipei10211@gmail.com"><img class="con" src="images\email.png"/></a>
+     </div>
+   </div>
+   <div class="skill"> <h2 class="h2"> My Skill </h2>
+    <div class="skills">
+      
+      <li>
+        <h5>HTML5</h5><span class="bar"><span class="html"></span></span>
+      </li>
+      <li>
+        <h5>CSS3</h5><span class="bar"><span class="css"></span></span>
+      </li>
+      <li>
+        <h5>JAVASCRIPT</h5><span class="bar"><span class="js"></span></span>
+      </li>
+      <li>
+        <h5>Back End</h5><span class="bar"><span class="jsp"></span></span>
+      </li>
+      <li>
+        <h5>JAVA</h5><span class="bar"><span class="java"></span></span>
+      </li>
+      <li>
+        <h5>.NET</h5><span class="bar"><span class="net"></span></span>
+      </li>
+    </div>
+  </div>
+  <div class="experience"> 
+    <div class="expe">
+      <h3 class="h3">Experience</h3>
+      <button class="accordion">--- PROJECT ---</button>
+      <div class="panel">
+      <img src="images/eggroll.jpg" class="class"><div class="p2"> <br><br> 企業概論 <br> 專案</div>
+      <img src="images/backend.png" class="class1"><div class="p3"> <br><br><br> 網程  期末專題</div>
+      </div>
+
+      <button class="accordion">----- JOB -----</button>
+      <div class="panel">
+          <div class="j1">
+            <li>倉儲管理暑期工讀</li>
+            <p>高三畢業的暑假，曾在家附近的泳裝工廠打工，在那段期間學到了許多新事物，這也是我人生中第一份工作，雖然是體力活，每天回家時都滿頭大汗的狀態，但在領第一份薪水時還是非常開心。</p>
+          </div>
+          <div class="j2">
+            <li>宿舍傳達室工讀</li>
+            <p>對這份工作最深的感受是:「堅持到底」。
+              從還是大一新鮮人時開始，一直做到了現在，也是當初的堅持才讓我得到了這份工作!
+              從中我也學到了很多我缺乏的特質，像是應變能力、與人相處、如何應答......。
+          </p>
+          </div>
+          <div class="j3">
+            <li>軍訓室工讀</li>
+            <p>今年寒假時，被教官詢問願不願意接下這份工作，包含文件整理、統計等等。
+               經過這個工作的洗禮，我才知道我還有非常多的不足，我也會努力的繼續精進我的文書處理能力!
+            </p>
+        </div>
+      </div>
+
+      <button class="accordion">---- OTHER ----</button>
+      <div class="panel">
+        <div >
+          <li class="o1">108宿舍自治會幹部</li>
+          <p></p>
+        </div>
+        <div>
+          <li class="o2">109宿舍自治會主要幹部</li>
+          <p>
+        </p>
+        </div>
+        <div>
+          <li class="o3">宿舍文化活動</li>
+          <p>
+          </p>
+      </div>
+      </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+
+        for (var i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+  </div>
+  <!--
+  <div class="ee"> 
+    <div class="myphoto"> <img class="me" src="images/me1.jpg"></div>
+    <div class="contact"></div>
+  </div>
+  <div class="ff"> 
+    <div class="myphoto"> <img class="me" src="images/me1.jpg"></div>
+    <div class="contact"></div>
+  </div>
+-->
+  <aside>
+    <div ><a href="#head"><img src="images\top1.png" class="top"></a> </div> 
+  </aside>
+
+  <footer>
+    copyright © 2020 Pei-Xuan
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
